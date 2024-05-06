@@ -1,6 +1,6 @@
-> This package is **abandoned** and will no longer be maintained.
+> This package is forked from [Intervention/imagecache](https://github.com/Intervention/imagecache)
 
-# ~~Intervention Image Cache~~ (Abandoned)
+# Intervention Image Cache
 
 Intervention Image Cache extends the [Intervention Image Class](https://github.com/Intervention/image/) package to be capable of image caching functionality.
 

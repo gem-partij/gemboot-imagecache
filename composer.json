@@ -1,5 +1,5 @@
 {
-    "name": "intervention/imagecache",
+    "name": "gem-partij/gemboot-imagecache",
     "description": "Caching extension for the Intervention Image Class",
     "homepage": "https://image.intervention.io",
     "keywords": [
@@ -9,19 +9,24 @@
         "laravel",
         "cache"
     ],
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "Oliver Vogel",
             "email": "oliver@intervention.io",
             "homepage": "http://intervention.io/"
+        },
+        {
+            "name": "Angger Priyardhan Putro",
+            "email": "anggerpputro@gmail.com"
         }
     ],
     "require": {
         "php": "~7.2|~8",
-        "intervention/image": "~2.2",
-        "illuminate/cache": "^5.5|~6|~7|~8|~9|~10",
-        "illuminate/filesystem": "^5.5|~6|~7|~8|~9|~10",
+        "intervention/image": "~2.2|~3",
+        "illuminate/cache": "^5.5|~6|~7|~8|~9|~10|~11",
+        "illuminate/filesystem": "^5.5|~6|~7|~8|~9|~10|~11",
         "nesbot/carbon": "^2.39",
         "opis/closure": "^3.5"
     },
@@ -37,6 +42,9 @@
         "psr-4": {
             "Intervention\\Image\\Test\\": "tests/"
         }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
     },
     "minimum-stability": "stable"
 }
